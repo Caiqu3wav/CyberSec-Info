@@ -12,8 +12,8 @@
         <nav>
             <ul>
                 <li><a href="/">HOME</a></li>
-                <li>TÓPICOS</li>
-                <li>SOBRE</li>
+                <lI><a href="#blogs">BLOGS</a></li>
+                <li><a href="#about">SOBRE</a></li>
             </ul>
         </nav>
     </header>
@@ -33,15 +33,81 @@
                     <summary>Fundamentos de políticas de segurança da informação</summary>
                     <ul>
                         <li><a href="politicasregulatorias/regulatoria.html">Regulatória</a></li>
-                        <li>Consultiva</li>
-                        <li>Informativa</li>
+                        <li><a href="politicasregulatorias/consultiva.html">Consultiva</a></li>
+                        <li><a href="politicasregulatorias/informativa.html">Informativa</a></li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Cartilha de segurança para internet</summary>
+                    <ul>
+                        <li><a href="cartilhadeseguranca/cartilhacert.html">Resumo da cartilha do CERT.BR.</a></li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Princípios de mecanismos de segurança:</summary>
+                    <ul>
+                        <li><a href="mecanismosdeseguranca/segurancaambientefisico.html">Segurança do ambiente físico;</a></li>
+                        <li><a href="mecanismosdeseguranca/segurancaambientelogico.html">Segurança do ambiente lógico;</a></li>
+                    </ul>
+                </details>
+
+                <details id="details-vulnerabilities">
+                    <summary>Fundamentos de técnicas de ataque e identificação de vulnerabilidades:</summary>
+                    <ul>
+                    <li>
+                    <details>
+                        <summary>Footprint:</summary>
+                        <a href="vulnerabilities/footprint/analisevarredura.html"><p>Descoberta de informações varredura/ análise.</p></a>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Enumeração:</summary>
+                        <a href="vulnerabilities/enumeracao/testespenetracao.html"><p>Testes de penetração e testes de vulnerabilidades.</p></a>
+                    </details></li>
+                        <li><a href="vulnerabilities/engenhariasocial.html"><p>Engenharia social</p></a></li>
+                        <li>
+                            <details>
+                                <summary>Negação de serviço:</summary>
+                                <ul>
+                                    <li><a href="vulnerabilities/negacaodeservico/dos.html">DoS</a></li>
+                                    <li><a href="vulnerabilities/negacaodeservico/ddos.html"></a>DdoS</li>
+                                    <li><a href="vulnerabilities/negacaodeservico/injectionsql.html"></a>Injections SQL</li>
+                                    <li><a href="vulnerabilities/negacaodeservico/ransomware.html"></a>Ransomware</li>
+                                </ul>                            </details></li>
                     </ul>
                 </details>
             </div>
         </div>
     </section>
-    <section class="sec-about">
-
+    <section class="sec-about" id="about">
+        <h1>Cibersegurança</h1>
+        <div id="about-content">
+            <p>Na era digital, onde a tecnologia permeia todos os aspectos de nossas vidas, a cibersegurança tornou-se 
+                uma preocupação central. Com o crescente volume de dados digitais e a interconexão global, a proteção
+                 contra ameaças cibernéticas é essencial para garantir a segurança, privacidade e integridade das
+                  informações pessoais e empresariais.</p>
+                  <img src="./assets/cibersecurityimgrep.webp" width="400px" alt="">
+                  <p>Diante desse cenário, a cibersegurança torna-se uma prioridade para governos, empresas e indivíduos.
+                     Investimentos em medidas preventivas, como firewalls, antivírus, criptografia de dados e 
+                     conscientização sobre segurança digital, são fundamentais para mitigar os riscos e fortalecer a 
+                     resiliência contra ameaças cibernéticas.  Além disso, a colaboração internacional, a adoção de
+                      padrões de segurança cibernética e a regulamentação adequada desempenham um papel crucial na proteção
+                       da infraestrutura digital global. A cibersegurança é um desafio em constante evolução, exigindo uma 
+                       abordagem proativa e contínua para proteger nossos sistemas e informações no mundo digital em constante
+                        mudança.
+                  </p>
+                  <p>Portanto este site foi feito com o fim de te informar sobre os tópicos gerais da segurança em t.i, abordando
+                    assuntos tanto de política como também de ataques e vulnerabilidades.
+                  </p>
+        </div>
+        <div class="overlay-blogs" id="blogs">
+            
+        </div>
     </section>
+
+    <script src="scripts.js">
+        
+    </script>
 </body>
 </html>

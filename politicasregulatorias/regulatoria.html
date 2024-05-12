@@ -11,9 +11,7 @@
         <img src="../assets/cybersecLogo.png" width="80px" alt="">
         <nav>
             <ul>
-                <li>HOME</li>
-                <li>TÓPICOS</li>
-                <li>SOBRE</li>
+                <li><a href="/">HOME</a></li>
             </ul>
         </nav>
     </header>
@@ -30,21 +28,74 @@
         </div>
 
         <div class="topics-div">
-            <h1>Tópicos</h1>
+            <h1>Outros Tópicos</h1>
             <div>
                 <details>
                     <summary>Fundamentos de políticas de segurança da informação</summary>
                     <ul>
                         <li><a href="regulatoria.html">Regulatória</a></li>
-                        <li>Consultiva</li>
-                        <li>Informativa</li>
+                        <li><a href="consultiva.html">Consultiva</a></li>
+                        <li><a href="informativa.html">Informativa</a></li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Cartilha de segurança para internet</summary>
+                    <ul>
+                        <li><a href="cartilhadeseguranca/cartilhacert.html">Resumo da cartilha do CERT.BR.</a></li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Princípios de mecanismos de segurança:</summary>
+                    <ul>
+                        <li><a href="mecanismosdeseguranca/segurancaambientefisico.html">Segurança do ambiente físico;</a></li>
+                        <li><a href="mecanismosdeseguranca/segurancaambientelogico.html">Segurança do ambiente lógico;</a></li>
+                    </ul>
+                </details>
+
+                <details id="details-vulnerabilities">
+                    <summary>Fundamentos de técnicas de ataque e identificação de vulnerabilidades:</summary>
+                    <ul>
+                    <li>
+                    <details>
+                        <summary>Footprint:</summary>
+                        <a href="vulnerabilities/footprint/analisevarredura.html"><p>Descoberta de informações varredura/ análise.</p></a>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Enumeração:</summary>
+                        <a href="vulnerabilities/enumeracao/testespenetracao.html"><p>Testes de penetração e testes de vulnerabilidades.</p></a>
+                    </details></li>
+                        <li><a href="vulnerabilities/engenhariasocial.html"><p>Engenharia social</p></a></li>
+                        <li>
+                            <details>
+                                <summary>Negação de serviço:</summary>
+                                <ul>
+                                    <li><a href="vulnerabilities/negacaodeservico/dos.html">DoS</a></li>
+                                    <li><a href="vulnerabilities/negacaodeservico/ddos.html"></a>DdoS</li>
+                                    <li><a href="vulnerabilities/negacaodeservico/injectionsql.html"></a>Injections SQL</li>
+                                    <li><a href="vulnerabilities/negacaodeservico/ransomware.html"></a>Ransomware</li>
+                                </ul>                            </details></li>
                     </ul>
                 </details>
             </div>
         </div>
     </section>
     <section class="sec-about">
-
+        <h1>Políticas relugatórias na T.I</h1>
+        <div id="about-content">
+            <p>As políticas regulatórias na área de Tecnologia da Informação (TI) desempenham um papel crucial na 
+                governança e na conformidade das organizações com leis, regulamentos e padrões estabelecidos pelos
+                 órgãos reguladores. Em um mundo cada vez mais digitalizado, onde a segurança e a privacidade dos
+                  dados são de suma importância, as políticas regulatórias na TI visam garantir que as empresas
+                   operem de acordo com as normas estabelecidas, protegendo informações sensíveis e mitigando 
+                   riscos relacionados à segurança cibernética.</p>
+                  <img src="../assets/blogsimg/regulatoria.jpg" width="400px" alt="">
+                  <p>Essas políticas abrangem uma variedade de áreas, incluindo proteção de dados pessoais, segurança da informação, conformidade com normas de segurança específicas da indústria (como PCI-DSS para empresas que lidam com transações financeiras), além de abordar questões éticas e legais relacionadas à tecnologia. Elas estabelecem diretrizes claras sobre como lidar com dados confidenciais, acesso a sistemas e informações, além de definir responsabilidades dos funcionários e procedimentos para lidar com incidentes de segurança.
+                  </p>
+                  <p>Além disso, as políticas regulatórias na TI são dinâmicas e estão sujeitas a constantes atualizações para acompanhar o rápido avanço tecnológico e as mudanças no cenário regulatório. As organizações devem estar atentas às mudanças nas leis e regulamentos relevantes, bem como às melhores práticas do setor, para garantir a conformidade contínua e a proteção eficaz dos dados. Em última análise, a implementação eficaz de políticas regulatórias na TI não apenas ajuda as empresas a evitar multas e penalidades por não conformidade, mas também fortalece a confiança dos clientes e parceiros, demonstrando um compromisso sólido com a segurança e a integridade dos dados.
+                  </p>
+        </div>
     </section>
 </body>
 </html>

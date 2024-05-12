@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -104,15 +105,88 @@ background-image: url(./assets/cybersecbgw.png);
     details li{
         border-bottom: 1px solid black;
         padding: 2px;
+        color: var(--blue-main);
+    }
+
+    details a{
+        color: var(--blue-main);
+    }
+}
+
+.details-vulnerabilities{
+    details summary{
+        color: blueviolet;
     }
 }
 
 
 .sec-about{
-    background: linear-gradient(white, rgb(255, 224, 139), rgb(24, 24, 24));
+    background: linear-gradient(rgb(255, 245, 214), rgb(255, 224, 139), rgb(24, 24, 24));
     height: fit-content;
     padding-top: 15px;
     padding-bottom: 15px;
     min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    padding: 10px, 0, 10px, 0;
+
+    div:nth-child(1){
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    #about-content{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;    }
+
+    h1:nth-child(1){
+        color: var(--blue-main);
+        border-radius: 20px;
+        border-bottom: 2px solid gray;
+        padding-bottom: 2px;
+    }
 }
 
+.overlay-blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.568), rgba(122, 58, 58, 0.295));
+    border-radius: 20px;
+    padding: 10px 10px 10px 60px;
+    width: 80%;
+}
+
+.blogs-items a{
+    width: 300px;
+}
+
+.blogs-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+
+    h1{
+        color: aliceblue;
+        border-bottom: 2px solid;
+    }
+    p{
+        color: var(--blue-main)
+    }
+}
+
+.blogs-items img{
+    border-radius: 10px;
+    width: 280px;
+}
