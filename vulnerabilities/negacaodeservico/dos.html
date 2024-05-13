@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CiberSec-Info</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+    <header>
+        <img src="../../assets/cybersecLogo.png" width="80px" alt="">
+        <nav>
+            <ul>
+                <li><a href="/">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="overlay-hero">
+            <img src="../../assets/cybersecLogoblue.png" width="60px" alt="">
+            <h1>Dos - Denial of Service</h1>
+            <p>A Segurança da Informação é uma área crítica em Tecnologia da Informação (TI), preocupada com a proteção
+                dos sistemas, redes e dados contra ameaças potenciais. Entre os desafios enfrentados pelos profissionais
+                de segurança da informação, estão os ataques de negação de serviço (DoS - Denial of Service), que visam
+                comprometer a disponibilidade de recursos online. Esses ataques podem causar interrupções nos serviços,
+                prejudicando a experiência do usuário e afetando a reputação e os negócios das organizações. Neste
+                contexto, entender os diferentes tipos de ataques DoS e as medidas de proteção adequadas é essencial
+                para garantir a integridade e a continuidade das operações online.
+            </p>
+        </div>
+
+        <div class="topics-div">
+            <h1>Outros Tópicos</h1>
+            <div>
+                <details>
+                    <summary>Fundamentos de políticas de segurança da informação</summary>
+                    <ul>
+                        <li><a href="http://127.0.0.1:5500/politicasregulatorias/regulatoria.html">Regulatória</a></li>
+                        <li><a href="http://127.0.0.1:5500/politicasregulatorias/consultiva.html">Consultiva</a></li>
+                        <li><a href="http://127.0.0.1:5500/politicasregulatorias/.html">Informativa</a></li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Cartilha de segurança para internet</summary>
+                    <ul>
+                        <li><a href="http://127.0.0.1:5500/cartilhadeseguranca/cartilhacert.html">Resumo da cartilha do
+                                CERT.BR.</a></li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Princípios de mecanismos de segurança:</summary>
+                    <ul>
+                        <li><a href="http://127.0.0.1:5500/mecanismosdeseguranca/segurancaambientefisico.html">Segurança
+                                do ambiente
+                                físico;</a></li>
+                        <li><a href="http://127.0.0.1:5500/mecanismosdeseguranca/segurancaambientelogico.html">Segurança
+                                do ambiente
+                                lógico;</a></li>
+                    </ul>
+                </details>
+
+                <details id="details-vulnerabilities">
+                    <summary>Fundamentos de técnicas de ataque e identificação de vulnerabilidades:</summary>
+                    <ul>
+                        <li>
+                            <details>
+                                <summary>Footprint:</summary>
+                                <a href="http://127.0.0.1:5500/vulnerabilities/footprint/analisevarredura.html">
+                                    <p>Descoberta de informações varredura/ análise.</p>
+                                </a>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Enumeração:</summary>
+                                <a href="http://127.0.0.1:5500/vulnerabilities/enumeracao/testespenetracao.html">
+                                    <p>Testes de penetração e testes de vulnerabilidades.</p>
+                                </a>
+                            </details>
+                        </li>
+                        <li><a href="http://127.0.0.1:5500/vulnerabilities/engenhariasocial.html">
+                                <p>Engenharia social</p>
+                            </a></li>
+                        <li>
+                            <details>
+                                <summary>Negação de serviço:</summary>
+                                <ul>
+                                    <li><a
+                                            href="http://127.0.0.1:5500/vulnerabilities/negacaodeservico/dos.html">DoS</a>
+                                    </li>
+                                    <li><a
+                                        href="http://127.0.0.1:5500/vulnerabilities/negacaodeservico/ddos.html">DdoS</a>
+                                </li>
+                                <li><a
+                                        href="http://127.0.0.1:5500/vulnerabilities/negacaodeservico/injectionsql.html">Injections</a>
+                                    SQL
+                                </li>
+                                <li><a href="http://127.0.0.1:5500/vulnerabilities/negacaodeservico/ransomware.html">Ransomware</a>
+                                </li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </details>
+            </div>
+        </div>
+    </section>
+    <section class="sec-about">
+        <h1>Ataques DoS</h1>
+        <div id="about-content">
+            <p>Os ataques de negação de serviço (DoS) representam uma forma comum de ataque cibernético, onde os
+                agressores buscam sobrecarregar os recursos de sistemas, redes ou serviços online, tornando-os
+                inacessíveis para usuários legítimos. Uma técnica comum usada em ataques DoS é o envio de uma grande
+                quantidade de tráfego de dados para o alvo, de forma a saturar sua largura de banda ou esgotar os
+                recursos do sistema. Isso pode ser realizado por meio de várias técnicas, como o envio de solicitações
+                falsas, exploração de vulnerabilidades de software ou o uso de botnets, redes de computadores
+                comprometidos controlados remotamente pelos atacantes.
+            </p>
+            <img src="../../assets/blogsimg/dos.jpg" width="400px" alt="">
+            <p>Além do DoS tradicional, existe o DDoS (Distributed Denial of Service), uma variação mais sofisticada
+                onde múltiplos dispositivos são coordenados para lançar o ataque. Esses dispositivos podem ser
+                computadores, servidores, dispositivos IoT (Internet of Things) ou até mesmo dispositivos móveis
+                comprometidos. O DDoS é ainda mais difícil de mitigar, pois os ataques vêm de diversas fontes,
+                dificultando a identificação e o bloqueio dos agressores. Como resultado, organizações precisam
+                implementar soluções robustas de proteção contra ataques DDoS, incluindo sistemas de detecção e
+                prevenção de intrusões (IDPS), serviços de mitigação de tráfego e parcerias com provedores de serviços
+                de segurança.
+            </p>
+            <p>Além dos danos diretos à disponibilidade de serviços, os ataques DoS podem causar impactos significativos
+                em termos de reputação, confiança do cliente e perdas financeiras para organizações afetadas. A
+                recuperação após um ataque DoS pode ser demorada e custosa, envolvendo investigações forenses, reparo de
+                sistemas comprometidos e implementação de medidas adicionais de segurança. Portanto, a prevenção
+                proativa e a resposta rápida a ataques DoS são essenciais para proteger a infraestrutura de TI e
+                garantir a continuidade dos negócios em um ambiente cada vez mais digital e interconectado.
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>

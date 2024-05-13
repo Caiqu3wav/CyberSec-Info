@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CiberSec-Info</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+    <header>
+        <img src="../../assets/cybersecLogo.png" width="80px" alt="">
+        <nav>
+            <ul>
+                <li><a href="/">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="overlay-hero">
+            <img src="../../assets/cybersecLogoblue.png" width="60px" alt="">
+            <h1>Ataques Sql Injection</h1>
+            <p>A segurança da informação é uma preocupação essencial em qualquer sistema de tecnologia da informação
+                (TI). Com o aumento das interações digitais e da dependência de dados, proteger informações sensíveis
+                contra ameaças cibernéticas tornou-se uma prioridade para empresas e organizações em todo o mundo. Uma
+                das vulnerabilidades mais comuns enfrentadas em sistemas de banco de dados é a injeção de SQL, uma
+                técnica maliciosa utilizada por hackers para comprometer a integridade e a segurança dos dados. A
+                injeção de SQL é uma vulnerabilidade que explora falhas em sistemas de gerenciamento de banco de dados
+                relacionais, permitindo que um invasor execute comandos SQL não autorizados.
+            </p>
+        </div>
+
+        <div class="topics-div">
+            <h1>Outros Tópicos</h1>
+            <div>
+                <details>
+                    <summary>Fundamentos de políticas de segurança da informação</summary>
+                    <ul>
+                        <li><a href="http://127.0.0.1:5500/politicasregulatorias/regulatoria.html">Regulatória</a></li>
+                        <li><a href="http://127.0.0.1:5500/politicasregulatorias/consultiva.html">Consultiva</a></li>
+                        <li><a href="http://127.0.0.1:5500/politicasregulatorias/.html">Informativa</a></li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Cartilha de segurança para internet</summary>
+                    <ul>
+                        <li><a href="http://127.0.0.1:5500/cartilhadeseguranca/cartilhacert.html">Resumo da cartilha do
+                                CERT.BR.</a></li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Princípios de mecanismos de segurança:</summary>
+                    <ul>
+                        <li><a href="http://127.0.0.1:5500/mecanismosdeseguranca/segurancaambientefisico.html">Segurança
+                                do ambiente
+                                físico;</a></li>
+                        <li><a href="http://127.0.0.1:5500/mecanismosdeseguranca/segurancaambientelogico.html">Segurança
+                                do ambiente
+                                lógico;</a></li>
+                    </ul>
+                </details>
+
+                <details id="details-vulnerabilities">
+                    <summary>Fundamentos de técnicas de ataque e identificação de vulnerabilidades:</summary>
+                    <ul>
+                        <li>
+                            <details>
+                                <summary>Footprint:</summary>
+                                <a href="http://127.0.0.1:5500/vulnerabilities/footprint/analisevarredura.html">
+                                    <p>Descoberta de informações varredura/ análise.</p>
+                                </a>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Enumeração:</summary>
+                                <a href="http://127.0.0.1:5500/vulnerabilities/enumeracao/testespenetracao.html">
+                                    <p>Testes de penetração e testes de vulnerabilidades.</p>
+                                </a>
+                            </details>
+                        </li>
+                        <li><a href="http://127.0.0.1:5500/vulnerabilities/engenhariasocial.html">
+                                <p>Engenharia social</p>
+                            </a></li>
+                        <li>
+                            <details>
+                                <summary>Negação de serviço:</summary>
+                                <ul>
+                                    <li><a
+                                            href="http://127.0.0.1:5500/vulnerabilities/negacaodeservico/dos.html">DoS</a>
+                                    </li>
+                                    <li><a
+                                            href="http://127.0.0.1:5500/vulnerabilities/negacaodeservico/ddos.html">DdoS</a>
+                                    </li>
+                                    <li><a
+                                            href="http://127.0.0.1:5500/vulnerabilities/negacaodeservico/injectionsql.html">Injections</a>
+                                        SQL
+                                    </li>
+                                    <li><a href="http://127.0.0.1:5500/vulnerabilities/negacaodeservico/ransomware.html">Ransomware</a>
+                                    </li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </details>
+            </div>
+        </div>
+    </section>
+    <section class="sec-about">
+        <h1>SQL Injection</h1>
+        <div id="about-content">
+            <p>A injeção de SQL representa uma ameaça significativa para sistemas de TI, pois permite que um invasor
+                execute comandos SQL maliciosos por meio de entradas não sanitizadas em formulários da web ou parâmetros
+                de URL. Essa técnica de ataque pode resultar na extração não autorizada de dados confidenciais,
+                manipulação de informações ou até mesmo no comprometimento completo do sistema. Ao explorar lacunas na
+                validação de entrada, os invasores podem inserir instruções SQL maliciosas que são executadas pelo banco
+                de dados, comprometendo a segurança e a integridade dos dados.
+            </p>
+            <img src="../../assets/blogsimg/sqlinjection.webp" width="400px" alt="">
+            <p>Um dos aspectos mais preocupantes da injeção de SQL é sua capacidade de passar despercebida, pois os
+                comandos maliciosos são frequentemente mascarados como consultas legítimas. Isso torna a detecção e
+                prevenção desse tipo de ataque desafiadoras para os profissionais de segurança da informação.
+                Estratégias eficazes de defesa incluem a implementação de práticas de codificação segura, validação
+                rigorosa de entrada de dados e o uso de parâmetros parametrizados em consultas SQL para evitar a
+                interpretação não autorizada de comandos.
+            </p>
+            <p>Além de comprometer a segurança dos dados, a injeção de SQL pode ter impactos financeiros significativos
+                para organizações afetadas. Incidentes de violação de dados resultantes de injeção de SQL podem levar a
+                multas regulatórias, perda de reputação da marca e litígios com clientes afetados. Portanto, é crucial
+                que as empresas implementem medidas proativas de segurança cibernética, como monitoramento contínuo de
+                ameaças, auditorias de segurança regulares e educação em conscientização sobre segurança para
+                funcionários, a fim de mitigar os riscos associados à injeção de SQL e outras vulnerabilidades de
+                segurança.
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
